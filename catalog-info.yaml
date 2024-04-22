@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dsdd
+  description: Stack for dsdd
+  annotations:
+    pulumi.com/project-slug: ediri/dsdd/dev
+spec:
+  owner: group:default/df
+  type: service
+  lifecycle: experimental
